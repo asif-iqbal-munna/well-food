@@ -54,6 +54,11 @@ img {
     font-size: 14px;
     padding: 12px 36px;
     text-transform: capitalize;
+    background-image: linear-gradient(45deg, #FB934A, #FE5031);
+    color: #fff;
+    padding: 12px 36px;
+    border-radius: 100px;
+    display: inline-block;
 }
 
 /****** Making elements side by side with flex and width for two and three column ******/
