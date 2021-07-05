@@ -79,3 +79,45 @@ img {
 .mb-medium {
     margin-bottom: 20px;
 }
+
+.mb-small {
+    margin-bottom: 10px;
+}
+
+.about-section {
+    background-image: url(images/shapes/bg-about.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.about__image img {
+    width: 65%;
+    margin: -50px 0 0 80px;
+}
+
+.card {
+    margin: 0 20px;
+    padding: 15px 15px 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+}
+.card-1 {
+    margin-left: 0;
+}
+
+.card-2 {
+    margin: 0 10;
+}
+
+.card-3 {
+    margin-right: 0;
+}
+
+.blog__title-box {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.text-center {
+    text-align: center;
+}
