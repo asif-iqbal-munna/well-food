@@ -180,6 +180,52 @@ header img {
     text-transform: capitalize;
 }
 
+/***** Style for the Booking section *****/
+
+.booking-section {
+    padding: 40px 0;
+}
+
+.booking .title-box {
+    margin-bottom: 0;
+}
+
+.form {
+    width: 50%;
+    padding: 40px;
+    margin: 0 auto;
+}
+.form label,input {
+    width: 100%;
+}
+
+.group-element {
+    margin-bottom: 25px;
+}
+
+
+.form input {
+    height: 50px;
+    box-shadow: 5px 5px 20px rgba(169, 167, 167, 0.529);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #FD4C2F 0%, #FB934A 50%);
+    border-image-slice: 9;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: transparent;
+    color: grey;
+    font-size: 20px;
+}
+
+.form button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+
 /***** Style for the footer section *****/
 
 footer {
