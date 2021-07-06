@@ -105,11 +105,11 @@ img {
 }
 
 .card {
-    margin: 0 20px;
+    margin: 0 50px;
     padding: 15px 15px 30px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.418);
     border-radius: 20px;
-    min-height: 540px;
+    min-height: 520px;
 }
 .card-1 {
     margin-left: 0;
@@ -150,3 +150,25 @@ img {
 }
 
 
+
+
+
+
+footer {
+    background-color: #0B0D17;
+    padding: 100px;
+}
+
+footer h2 {
+    color: grey;
+}
+
+footer p {
+    color: grey;
+}
+
+footer a {
+    color: #FD5D36;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #FD5D36;
+}
