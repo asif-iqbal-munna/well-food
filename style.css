@@ -226,6 +226,41 @@ header img {
     margin-left: auto;
 }
 
+/***** Style for the Testimonial section *****/
+
+.testimonial-section {
+    background: rgba(0, 0, 0, 0.7)  url(images/food/bg-test.png) no-repeat fixed center;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    padding: 0;
+}
+
+.testimonial {
+    width: 60%;
+    margin:0 auto;
+    padding: 10% 0;
+}
+
+.customer__photo {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 100px;
+    margin-right: 20px;
+
+}
+
+.customer__photo img {
+    border-radius: 100px;
+}
+
+.inv-comma {
+    font-size: 60px;
+    line-height: 1;
+}
 /***** Style for the footer section *****/
 
 footer {
