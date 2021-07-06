@@ -22,8 +22,12 @@ body {
 
 /****** Basic styles for some specific tags ******/
 
+header {
+    background-color: #F0F2F5;
+}
+
 section,header { 
-    margin-bottom: 80px;  /*** Space between two sections ****/
+    padding-bottom: 80px;  /*** Space between two sections ****/
 }
 
 a {
@@ -75,7 +79,9 @@ img {
 .col-3 {
     width: 33.33%;
 }
-
+.mt-medium {
+    margin-top: 30px;
+}
 .mb-medium {
     margin-bottom: 20px;
 }
@@ -88,11 +94,14 @@ img {
     background-image: url(images/shapes/bg-about.png);
     background-repeat: no-repeat;
     background-position: left;
+    max-height: 600px;
+    padding: 30px 0;
 }
 
+
 .about__image img {
-    width: 65%;
-    margin: -50px 0 0 80px;
+    width: 60%;
+    margin-left: 80px;
 }
 
 .card {
@@ -100,6 +109,7 @@ img {
     padding: 15px 15px 30px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.418);
     border-radius: 20px;
+    min-height: 540px;
 }
 .card-1 {
     margin-left: 0;
@@ -113,11 +123,30 @@ img {
     margin-right: 0;
 }
 
-.blog__title-box {
+.title-box {
     margin: 0 auto;
     width: 70%;
     margin-bottom: 50px;
 }
+
+.counter {
+    box-shadow: 5px 5px 15px grey;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.counter-section {
+    background-color: #F0F2F5;
+    padding-top: 60px;
+}
+.counter__title {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
 .text-center {
     text-align: center;
 }
+
+
